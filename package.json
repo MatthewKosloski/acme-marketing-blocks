@@ -1,0 +1,23 @@
+{
+  "name": "acme-marketing-blocks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint-js": "wp-scripts lint-js ./blocks",
+    "start": "wp-scripts start",
+    "build": "npm run build:catalog && npm run build:button",
+    "build:catalog": "wp-scripts build blocks/catalog/src/index.js --output-path=blocks/catalog/build",
+    "build:button": "wp-scripts build blocks/button/src/index.js --output-path=blocks/button/build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^6.1.1"
+  },
+  "dependencies": {
+    "@wordpress/editor": "^9.9.0",
+    "dompurify": "^2.0.7"
+  }
+}

@@ -1,0 +1,40 @@
+.wp-block-acme-marketing-blocks-button {
+    border-radius: 4px;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #2E2B22;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.wp-block-acme-marketing-blocks-button--inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wp-block-acme-marketing-blocks-button.filled svg,
+.wp-block-acme-marketing-blocks-button.filled-arrow svg,
+.wp-block-acme-marketing-blocks-button.stroke svg,
+.wp-block-acme-marketing-blocks-button.stroke-arrow svg {
+    margin-left: 5px;
+}
+
+.wp-block-acme-marketing-blocks-button.filled svg path,
+.wp-block-acme-marketing-blocks-button.filled-arrow svg path,
+.wp-block-acme-marketing-blocks-button.stroke svg path,
+.wp-block-acme-marketing-blocks-button.stroke-arrow svg path {
+    fill: #2E2B22;
+}
+
+.wp-block-acme-marketing-blocks-button.filled,
+.wp-block-acme-marketing-blocks-button.filled-arrow {
+    background-color: #FFD33E;
+}
+
+.wp-block-acme-marketing-blocks-button.stroke,
+.wp-block-acme-marketing-blocks-button.stroke-arrow {
+    background-color: transparent;
+    border: 2px solid #2E2B22;
+}
